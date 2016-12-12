@@ -1,0 +1,81 @@
+body {
+	font-size: 16px;
+	color: #FFF;
+	background-color: #61122F;
+	font-family: 'Nunito', sans-serif;
+}
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand h1 {
+	font-family: 'Mitr', sans-serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+section {
+	border: 1px thick black;
+	background: #333333;
+	padding: 10px;
+	margin: 10px;
+	height: 400px;
+	overflow: auto;
+}
+section a {
+	font-size: 18px;
+	text-decoration: none;
+}
+/****Small devices only *******/
+@media (min-width: 768px) and (max-width: 991px) {
+#section3 {
+	height: 250px;
+}
+}
+/****Extra small devices only *******/
+@media (max-width: 767px) {
+section {
+	height: auto;
+}
+#main-heading h1 {
+	padding-top: 5px;
+	font-size: 7vw; /* 1vw = 1% of viewport width */
+}
+#main-heading h3 {
+	padding-top: 5px;
+	font-size: 4vw;
+}
+#main-heading p {
+	padding-top: 5px;
+	font-size: 3vw;
+}
+}
